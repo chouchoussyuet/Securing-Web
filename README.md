@@ -46,24 +46,26 @@ Dự án này là một ứng dụng web đơn giản sử dụng Spring Boot, �
 ![image](https://github.com/user-attachments/assets/24dc4ba5-e043-474c-b161-ae5bf67d3e5e)
 
 ### 2. Đăng nhập quyền USER
-- Đăng nhập (Bạn có thể sử dụng mặc định tên đăng nhập: user, mật khẩu: password đã được thêm vào CSDL)
+##### Đăng nhập 
+- Bạn có thể sử dụng mặc định tên đăng nhập: user, mật khẩu: password đã được thêm vào CSDL
 ![image](https://github.com/user-attachments/assets/44b2862e-a17b-4614-a02b-a30640ddf13c)
 
-- Quyền truy cập: Vì đây là quyền user, nên người đăng nhập có thể xem /hello, nhưng sẽ bị từ chối khi vào /admin (403 Forbidden).
-    + Xem được /hello
-      ![image](https://github.com/user-attachments/assets/b4307392-e4fe-4172-8f37-be4802f8321b)
+##### Quyền truy cập: Vì đây là quyền user, nên người đăng nhập có thể xem /hello, nhưng sẽ bị từ chối khi vào /admin (403 Forbidden).
+###### Xem được /hello
+![image](https://github.com/user-attachments/assets/b4307392-e4fe-4172-8f37-be4802f8321b)
 
-    + Bị từ chối khi  /admin
-      ![image](https://github.com/user-attachments/assets/809fa0f7-0c71-4a2c-a066-e15864312706)
+###### Bị từ chối khi  /admin
+![image](https://github.com/user-attachments/assets/809fa0f7-0c71-4a2c-a066-e15864312706)
 
 ### 3. Đăng nhập quyền ADMIN
-- Đăng nhập (Bạn có thể sử dụng mặc định tên đăng nhập: admin, mật khẩu: admin đã được thêm vào CSDL)
+##### Đăng nhập 
+- Bạn có thể sử dụng mặc định tên đăng nhập: admin, mật khẩu: admin đã được thêm vào CSDL
   ![image](https://github.com/user-attachments/assets/8e4ce26a-0aa0-4185-bf57-58fa6ae61784)
 
-- Quyền truy cập: Có thể xem cả /hello và /admin.
-   + Xem được /hello
-      ![image](https://github.com/user-attachments/assets/b4307392-e4fe-4172-8f37-be4802f8321b)
+##### Quyền truy cập: Có thể xem cả /hello và /admin.
+###### Xem được /hello
+![image](https://github.com/user-attachments/assets/b4307392-e4fe-4172-8f37-be4802f8321b)
 
-  + Xem được /admin
-    ![image](https://github.com/user-attachments/assets/16ff14a2-b9ea-4def-adc6-866c8a384a1d)
+###### Xem được /admin
+![image](https://github.com/user-attachments/assets/16ff14a2-b9ea-4def-adc6-866c8a384a1d)
 
