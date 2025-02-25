@@ -26,3 +26,13 @@ src/main/resources/:
 - templates/: Các template Thymeleaf (home.html, hello.html, login.html, admin.html).
 - application.properties: Cấu hình cơ sở dữ liệu H2.
 - data.sql: Dữ liệu người dùng ban đầu cho cơ sở dữ liệu H2.
+
+## Chạy ứng dụng 
+1. Cách 1: Sử dụng Maven:
+   ```
+   ./mvnw spring-boot:run
+   ```
+2. Cách 2: Sử dụng file jar
+  ```
+    java -jar target/securing-web-initial-0.0.1-SNAPSHOT.jar
+  ``` 
