@@ -15,14 +15,14 @@ Dự án này là một ứng dụng web đơn giản sử dụng Spring Boot, �
 - Maven 3.5+ (hoặc sử dụng mvnw đi kèm trong dự án).
 
 ## Cấu trúc dự án
-  src/main/java/com/example/securingweb/:
-    - SecuringWebApplication.java: Lớp chính của ứng dụng.
-    - MvcConfig.java: Cấu hình các view controller.
-    - WebSecurityConfig.java: Cấu hình Spring Security.
-    - User.java: Entity JPA cho người dùng.
-    - UserRepository.java: Repository Spring Data JPA cho dữ liệu người dùng.
+src/main/java/com/example/securingweb/:
+- SecuringWebApplication.java: Lớp chính của ứng dụng.
+- MvcConfig.java: Cấu hình các view controller.
+- WebSecurityConfig.java: Cấu hình Spring Security.
+- User.java: Entity JPA cho người dùng.
+- UserRepository.java: Repository Spring Data JPA cho dữ liệu người dùng.
 
-  src/main/resources/:
-    - templates/: Các template Thymeleaf (home.html, hello.html, login.html, admin.html).
-    - application.properties: Cấu hình cơ sở dữ liệu H2.
-    - data.sql: Dữ liệu người dùng ban đầu cho cơ sở dữ liệu H2.
+src/main/resources/:
+- templates/: Các template Thymeleaf (home.html, hello.html, login.html, admin.html).
+- application.properties: Cấu hình cơ sở dữ liệu H2.
+- data.sql: Dữ liệu người dùng ban đầu cho cơ sở dữ liệu H2.
