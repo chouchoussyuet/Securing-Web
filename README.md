@@ -35,4 +35,5 @@ src/main/resources/:
 2. Cách 2: Sử dụng file jar
   ```
     java -jar target/securing-web-initial-0.0.1-SNAPSHOT.jar
-  ``` 
+  ```
+Ứng dụng sẽ khởi động tại ``` http://localhost:8080 ```
