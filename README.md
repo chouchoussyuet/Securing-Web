@@ -50,7 +50,8 @@ Dự án này là một ứng dụng web đơn giản sử dụng Spring Boot, �
 - Bạn có thể sử dụng mặc định tên đăng nhập: user, mật khẩu: password đã được thêm vào CSDL
 ![image](https://github.com/user-attachments/assets/44b2862e-a17b-4614-a02b-a30640ddf13c)
 
-##### Quyền truy cập: Vì đây là quyền user, nên người đăng nhập có thể xem /hello, nhưng sẽ bị từ chối khi vào /admin (403 Forbidden).
+##### Quyền truy cập: 
+- Vì đây là quyền user, nên người đăng nhập có thể xem /hello, nhưng sẽ bị từ chối khi vào /admin (403 Forbidden).
 ###### Xem được /hello
 ![image](https://github.com/user-attachments/assets/b4307392-e4fe-4172-8f37-be4802f8321b)
 
@@ -62,7 +63,8 @@ Dự án này là một ứng dụng web đơn giản sử dụng Spring Boot, �
 - Bạn có thể sử dụng mặc định tên đăng nhập: admin, mật khẩu: admin đã được thêm vào CSDL
   ![image](https://github.com/user-attachments/assets/8e4ce26a-0aa0-4185-bf57-58fa6ae61784)
 
-##### Quyền truy cập: Có thể xem cả /hello và /admin.
+##### Quyền truy cập: 
+- Có thể xem cả /hello và /admin.
 ###### Xem được /hello
 ![image](https://github.com/user-attachments/assets/b4307392-e4fe-4172-8f37-be4802f8321b)
 
